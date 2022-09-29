@@ -1,27 +1,23 @@
-/*
-    font-size: font-family;
-*/
-/*
-body {
-    font-family: Helvetica;
+a {
+    font-style: 40px;
+    text-decoration: none;
 }
-
-h1 {
-    font-family: Verdana;
-}
-*/
-
-/*
-font-stack generic-family
-serif, sans-serif, cursive, fantasy, monospace
-*/
 body {
-    font-family: "Courier New", Courier, monospace;
+    text-transform: uppercase;
 }
 h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: lowercase;
+    text-decoration: line-through;
 }
-
-/*
- GOOGLE FONTS
-*/
+.one {
+    line-height: 0.5em;
+}
+.two {
+    letter-spacing: 5px;
+    text-decoration: overline;
+    line-height: 2rem;
+}
+.three {
+    word-spacing: 20px;
+    text-decoration: underline;
+}
