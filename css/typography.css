@@ -1,3 +1,6 @@
+.one {
+    line-height: 0.5em;
+}
 a {
     font-style: 40px;
     text-decoration: none;
@@ -5,19 +8,16 @@ a {
 body {
     text-transform: uppercase;
 }
+.three {
+    word-spacing: 20px;
+    text-decoration: underline;
+}
 h1 {
     text-transform: lowercase;
     text-decoration: line-through;
-}
-.one {
-    line-height: 0.5em;
 }
 .two {
     letter-spacing: 5px;
     text-decoration: overline;
     line-height: 2rem;
-}
-.three {
-    word-spacing: 20px;
-    text-decoration: underline;
 }

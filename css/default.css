@@ -1,29 +1,19 @@
-/*
-default browser styles and google devTools
-*/
-
 h2 {
     color: red;
     font-size: 60px;
 }
 
-/* 
-calc()
-perform math operations + - * /
-mix and match values
-*/
 
 *{
     margin: 0;
 }
 .navbar {
-    background: blue;
+    background: rgb(35, 35, 148);
     height: 100px;
     color: white;
     font-size: 3rem;
 }
-
 .banner {
-    background: red;
+    background: rgb(161, 83, 83);
     min-height: calc(100vh - 100px);
 }
